@@ -1,5 +1,18 @@
 .container {
     font-family: 'Karla', sans-serif;
+    width: 60%;
     display: grid;
-  }
+}
+
+.intro {
+    background: white;
+}
+  
+.subscribe {
+    background: hsl(179, 62%, 43%);
+}
+
+.why-us {
+    background: hsl(179, 61%, 50%);
+}
 
