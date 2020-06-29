@@ -103,7 +103,13 @@ button{
     opacity: 80%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 414px){
     .container{
         display: block;
         width: 90%;
