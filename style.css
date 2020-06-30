@@ -22,12 +22,15 @@ h1, h2, h3, h4, p{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
+    /* margin-right: -50%; */
     transform: translate(-50%, -50%);
     width: 40%;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 45% 55%;
+    overflow: hidden;
+    box-shadow: 1px 10px 17px -5px rgba(133,147,171,0.35);
 }
 
 .intro {
@@ -80,11 +83,19 @@ strong {
 }
 
 button{
+    
     width: 100%;
     height: 50px;
     border: none;
     border-radius: 5px;
     background-color: hsl(71, 73%, 54%);
+    box-shadow: 0px 6px 14px -5px rgba(133,147,171,0.43);
+}
+
+button strong{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
     color: hsl(204, 43%, 93%);
 }
 
